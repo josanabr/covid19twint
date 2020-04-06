@@ -1,5 +1,27 @@
 # readme.md
 
+## Requerimientos
+
+Para usar el script que viene en este repositorio debe crear un ambiente para Python
+
+```
+virtualenv venv
+```
+
+Actívelo
+
+```
+source venv/bin/activate
+```
+
+Instale dependencias
+
+```
+pip3 install -r requirements.txt
+```
+
+## Ejecucion
+
 El archivo `./getTweetsGivenTime.sh` espera recibir tres argumentos:
 
  * usuario en twitter
@@ -9,8 +31,12 @@ El archivo `./getTweetsGivenTime.sh` espera recibir tres argumentos:
 Una forma de invocar su ejecución es como sigue:
 
 ```
+./getTweetsGivenTime.sh ColombiaET 2020-03-08 2020-04-05
 ```
-Se siguieron los siguientes usuarios en Twitter quienes son sitios de noticias:
+
+Esta ejecución trae todos los tweets del usuario en twitter `ColombiaET` desde el 2020-03-08 al 2020-04-05.
+
+Se recuperaron los tweets de los siguientes usuarios:
 
 | Usuario | Tipo | Desc. | URL Tweeter | Archivo JSON | Corta Desc. |
 |:-:|:-:|---|:-:|:-:|---|
