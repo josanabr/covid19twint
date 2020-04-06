@@ -20,6 +20,10 @@ Instale dependencias
 pip3 install -r requirements.txt
 ```
 
+## Colectar datos periodicamente
+
+Se creó el script `collecttweets.sh`. Este script permite recorrer a los diferentes usuarios de twiter y almacenar en un archivo JSON los tweets del último día.
+
 ## Ejecucion
 
 El archivo `./getTweetsGivenTime.sh` espera recibir tres argumentos:
@@ -40,7 +44,7 @@ Se recuperaron los tweets de los siguientes usuarios:
 
 | Usuario | Tipo | Desc. | URL Tweeter | Archivo JSON | Corta Desc. |
 |:-:|:-:|---|:-:|:-:|---|
-| ColombiaET | El Espectador | Periódico | [URL](https://twitter.com/elespectador) | [JSON.GZ](Tweets-elespectador-2020-03-08-2020-04-05.json.gz) | Tweets de 2020-03-08 a 2020-04-05 |
+| elespectador | El Espectador | Periódico | [URL](https://twitter.com/elespectador) | [JSON.GZ](Tweets-elespectador-2020-03-08-2020-04-05.json.gz) | Tweets de 2020-03-08 a 2020-04-05 |
 | elpaiscali | El País Cali | Periódico | [URL](https://twitter.com/elpaiscali) | [JSON.GZ](Tweets-elpaiscali-2020-03-08-2020-04-05.json.gz)| Tweets de 2020-03-08 a 2020-04-05 |
 | colombiaet | El Tiempo | Periódico | [URL](https://twitter.com/colombiaet?lang=en) |[JSON.GZ](Tweets-ColombiaET-2020-03-08-2020-04-05.json.gz) | Tweets de 2020-03-08 a 2020-04-05 |
 | BluRadioCo | Blu Radio Colombia | Radio | [URL](https://twitter.com/BluRadioCo) | [JSON.GZ](Tweets-bluradioco-2020-03-08-2020-04-05.json.gz) | Tweets de 2020-03-08 a 2020-04-05 |
