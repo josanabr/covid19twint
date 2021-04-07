@@ -1,7 +1,7 @@
 aiodns==2.0.0
 aiohttp==3.6.2
 aiohttp-socks==0.3.7
-ansible==2.9.1
+ansible==2.10.0
 appdirs==1.4.3
 async-timeout==3.0.1
 attrs==19.3.0
